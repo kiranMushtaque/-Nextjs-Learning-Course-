@@ -1,4 +1,10 @@
-// app/ui/fonts.ts
-export const lusitana = {
-  fontFamily: "Lusitana, serif", 
-};
+import { Inter, Lusitana } from "next/font/google";
+
+export const inter = Inter({
+  subsets: ["latin"],
+});
+
+export const lusitana = Lusitana({
+  subsets: ["latin"],
+  weight: ["400", "700"], // required weights specify karain
+});
