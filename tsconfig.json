@@ -21,7 +21,11 @@
     "baseUrl": ".",
     "paths": {
       "@/app/*": ["./app/*"]
-    }
+    },
+    "typeRoots": [
+      "./node_modules/@types",
+      "./@types" // Yeh line pehle se hi hai
+    ]
   },
   "include": [
     "next-env.d.ts",

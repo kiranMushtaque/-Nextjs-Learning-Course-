@@ -1,10 +1,14 @@
-import { Inter, Lusitana } from "next/font/google";
+
+import { Inter, Lusitana } from "next/font/google"; // Import fonts
+
 
 export const inter = Inter({
   subsets: ["latin"],
+  variable: "--font-inter", 
 });
 
+
 export const lusitana = Lusitana({
-  subsets: ["latin"],
-  weight: ["400", "700"], // required weights specify karain
+  weight: ["400", "700"], 
+  subsets: ["latin"], 
 });
